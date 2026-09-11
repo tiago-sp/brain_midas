@@ -1,0 +1,11 @@
+# Secrets and local runtime state
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials*.json
+secrets*.json
+__pycache__/
+*.pyc
+.DS_Store

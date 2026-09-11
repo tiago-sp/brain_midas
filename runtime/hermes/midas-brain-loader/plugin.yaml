@@ -1,0 +1,11 @@
+name: midas-brain-loader
+version: 1.0.0
+description: Canonical Midas startup context with SHA-256 audit and limited tool/final-output guards.
+author: Tiago Pereira
+entrypoint: __init__.py
+provides_hooks:
+  - pre_llm_call
+  - pre_tool_call
+  - transform_llm_output
+  - post_llm_call
+  - on_session_finalize
