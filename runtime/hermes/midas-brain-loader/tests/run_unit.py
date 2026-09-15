@@ -6,7 +6,7 @@ from pathlib import Path
 import tempfile
 
 PLUGIN = Path(__file__).resolve().parents[1] / '__init__.py'
-BRAIN = Path('/Volumes/External/tiago/Developer/brains/brain_midas')
+BRAIN = Path(__file__).resolve().parents[4]
 spec = importlib.util.spec_from_file_location('midas_brain_loader_tested', PLUGIN)
 module = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(module)

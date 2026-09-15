@@ -7,15 +7,12 @@ import json
 import os
 from pathlib import Path
 import socket
-import sys
 from unittest.mock import patch
 import uuid
 
-SOURCE = Path('/Volumes/External/tiago/.hermes/hermes-agent')
-PROFILE = Path('/Volumes/External/tiago/.hermes/profiles/midas')
+PROFILE = Path(os.environ['HERMES_HOME']).resolve()
 ARTIFACT = Path(__file__).resolve().parents[1]
-assert Path(os.environ['HERMES_HOME']).resolve() == PROFILE.resolve()
-sys.path.insert(0, str(SOURCE))
+assert PROFILE.name == 'midas'
 with patch.object(socket.socket, 'connect', side_effect=RuntimeError('OFFLINE installation probe')):
     from hermes_cli.config import load_config
     from hermes_cli.plugins import get_plugin_manager

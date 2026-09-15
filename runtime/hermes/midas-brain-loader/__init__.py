@@ -127,7 +127,7 @@ def register(ctx):
     allowed = ctx.get_config('allowed_discord_sender_ids', [])
     if isinstance(allowed, str):
         allowed = [value.strip() for value in allowed.split(',') if value.strip()]
-    loader = BrainLoader(ctx.get_config('brain_path', '/Volumes/External/tiago/Developer/brains/brain_midas'),
+    loader = BrainLoader(ctx.get_config('brain_path', str(Path.home() / 'brains' / 'brain_midas')),
                          Path(get_hermes_home()) / 'logs' / 'midas-brain-loader', max_chars=min(cap, 1000000),
                          allowed_discord_sender_ids=allowed)
     for event in ('pre_llm_call', 'pre_tool_call', 'transform_llm_output', 'post_llm_call', 'on_session_finalize'):

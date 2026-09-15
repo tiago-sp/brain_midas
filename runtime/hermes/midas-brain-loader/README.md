@@ -4,7 +4,7 @@ Plugin nativo do perfil Hermes `midas`.
 
 ## Fonte canônica
 
-`/Volumes/External/tiago/Developer/brains/brain_midas`
+`~/brains/brain_midas`
 
 Arquivos injetados no primeiro turno:
 
