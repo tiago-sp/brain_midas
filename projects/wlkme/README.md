@@ -1,21 +1,24 @@
 # WLKMe
 
 - URL: https://wlkme.com/
-- Captura inicial: 2026-09-11
-- Relação declarada: projeto do portfólio Ax6Pro.
+- Concierge digital para hospedagens.
+- Dados internos: relato de Tiago em 2026-09-11; não auditados.
 
-## Posicionamento público observado
+## Operação
 
-Concierge digital para hospedagens. Centraliza Wi-Fi, horários, regras, instruções de acesso, contatos, guias de equipamentos e recomendações locais em um link, com QR codes, suporte multilíngue e chat de IA baseado no conteúdo cadastrado.
+- 7 usuários pagantes.
+- MRR: 223 BRL.
+- 113 usuários free; atividade não informada.
+- Custo operacional aproximado: 200 CAD/mês, incluindo infraestrutura, APIs/IA e demais custos variáveis, dividido entre os participantes. Regra exata do rateio não informada.
+- Pagantes vieram por mídia digital; não especificado se paga ou orgânica.
+- Há medição de usuários ativos e do principal evento de valor; números, retenção e cancelamentos serão fornecidos posteriormente.
 
-## Público sugerido pelo site
+## Sociedade
 
-Hosts e gestores de propriedades que hoje dependem de Airbnb, WhatsApp, PDFs e mensagens repetitivas. O valor proposto é reduzir ansiedade do hóspede e carga operacional do anfitrião, elevando a experiência da estadia.
+- Lucas lidera e possui 30%.
+- Tiago possui 5%.
+- Restante do cap table não detalhado.
 
-## Alegações públicas — não validadas internamente
+## Lacunas
 
-O site afirma que 52% dos hóspedes se frustram com falta de clareza após a reserva. A origem e aplicabilidade dessa estatística precisam ser verificadas antes de uso em decisão ou campanha.
-
-## Lacunas materiais
-
-ICP prioritário, geografia, preço, clientes ativos/pagantes, ativação, retenção por propriedade, CAC, integrações com PMS/OTA, concorrentes principais, owners e roadmap não foram informados.
+ICP prioritário, geografia, preços por plano, ativação, retenção, CAC, integrações, margem, roadmap e dados dos últimos três meses.

@@ -1,25 +1,35 @@
 # Vant Clinic
 
-- URL fornecida: https://dev.vantclinic.com/
-- Captura inicial: 2026-09-11
-- Relação declarada: projeto do portfólio Ax6Pro.
+- URL: https://dev.vantclinic.com/
+- Jornada digital de tratamento capilar.
+- Dados internos: relatos de Tiago em 2026-09-11; não auditados.
 
-## Posicionamento público observado
+## Sociedade e responsabilidades
 
-Jornada digital contínua para tratamento capilar, com avaliação médica remota, envio de imagens, plano individualizado, fórmula entregue em casa, dashboard e apoio de IA para acompanhar evolução. O site enfatiza que a tecnologia apoia e o médico decide.
+- Tiago atua como CEO e possui 20%.
+- Nelson é sócio investidor e possui 10%.
+- Doutor Charles possui 10%, é o responsável técnico e define quando as fórmulas estão prontas para comercialização.
+- Restante do cap table não detalhado.
+- Uma farmácia de manipulação parceira cuida das fórmulas; identidade não informada.
 
-## Modelo público observado
+## Capital e estágio
 
-Assinatura mensal sem fidelização, anunciada entre R$100 e R$400, com valor final definido após avaliação médica conforme suporte e medicação necessários.
+- Aporte inicial de 100K BRL feito por Nelson.
+- Mais de 95% permanece disponível segundo Tiago; saldo exato não informado.
+- Houve alguns gastos com matéria-prima.
+- Não há muitos gastos previstos antes do lançamento; orçamento detalhado não fornecido.
+- Site e aplicativo já existem.
+- Produto ainda não lançado.
 
-## Alegações públicas — não validadas internamente
+## Validação
 
-O site associa “94%” a estudo clínico e usa essa referência na comunicação da jornada. A correspondência entre o estudo citado, o protocolo oferecido e a formulação das alegações exige validação médica, jurídica e regulatória antes de campanhas ou escala.
+- Existem duas fórmulas/produtos.
+- Um produto está em teste de bancada por 90 dias; datas de início e término não informadas.
+- O outro ainda busca fórmula estável para iniciar o teste de bancada.
+- Após a bancada, está previsto teste de uso real por 30 dias com pessoas candidatas.
+- Existem participantes interessados; isso não valida disposição de compra.
+- Tiago relata empresa similar operando no Brasil; identidade não fornecida.
 
-## Riscos materiais a esclarecer
+## Riscos e lacunas
 
-Governança clínica, LGPD e dados de saúde, telemedicina, prescrição, farmácia parceira, publicidade médica, consentimento, segurança, responsabilidade profissional e validação do componente de IA.
-
-## Lacunas materiais
-
-Estágio além do ambiente `dev`, entidade jurídica, médicos e parceiros, geografia de lançamento, CAC, margem por plano, retenção clínica, capacidade operacional, owners, aprovações e roadmap não foram informados.
+Governança clínica, LGPD, telemedicina, prescrição, publicidade médica, consentimento, segurança, aprovações, protocolo e critérios dos testes, geografia, CAC, margem, capacidade operacional, orçamento e roadmap.

@@ -1,21 +1,24 @@
 # Bit2Connect
 
 - URL: https://bit2connect.com/
-- Captura inicial: 2026-09-11
-- Relação declarada: projeto do portfólio Ax6Pro.
+- SaaS de deep links e atribuição.
+- Dados internos: relato de Tiago em 2026-09-11; não auditados.
 
-## Posicionamento público observado
+## Operação
 
-Serviço de deep linking para iOS, Android e desktop. O site apresenta links dinâmicos e deferred deep linking, domínios personalizados, analytics, QR codes, pixels, UTM, colaboração em equipe e API.
+- Um grande cliente usa a plataforma há mais de um ano.
+- Por ser o primeiro e um grande cliente, foi oferecida uma parceria; ele não paga.
+- Não existe contrapartida pela gratuidade, segundo Tiago.
+- Não há outros usuários, nem gratuitos nem pagantes.
+- Custo mensal inferior a 15 CAD; escopo exato não informado.
+- Não houve foco comercial no produto até agora.
 
-## Modelo público observado
+## Sociedade
 
-Plano gratuito e plano pago anunciado por US$39/mês. O site anuncia links, cliques e membros ilimitados no plano pago.
+- Edjo lidera e possui 20%.
+- Tiago possui 10%.
+- Restante do cap table não detalhado.
 
-## Alegações públicas — não validadas internamente
+## Lacunas
 
-O site exibe 99,9% de uptime, resposta abaixo de 50 ms, mais de 1 milhão de links criados, suporte 24/7, SOC 2 e GDPR readiness. Não tratar essas alegações como auditadas sem evidência interna ou independente.
-
-## Lacunas materiais
-
-Estágio, número de clientes pagantes, MRR/ARR, CAC, churn, margem, custos de infraestrutura, diferenciação comprovada, compliance efetivo, owners e roadmap não foram informados.
+Formalização e prazo da parceria, ICP, monetização, diferenciação comprovada, compliance, roadmap e responsável comercial.

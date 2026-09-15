@@ -1,21 +1,25 @@
 # Pingys
 
 - URL: https://pingys.com/
-- Captura inicial: 2026-09-11
-- Relação declarada: projeto do portfólio Ax6Pro.
+- Co-host de IA para streamers de Twitch e Kick.
+- Dados internos: relato de Tiago em 2026-09-11; não auditados.
 
-## Posicionamento público observado
+## Operação
 
-Aplicativo desktop de co-host de IA para streamers de Twitch e Kick. O site apresenta voz em tempo real, leitura de chat, tradução e legendas, memória de stream, moderação, analytics, integração com OBS, controle por voz, replays, capítulos, clips e resumo automático.
+- 7 usuários pagantes.
+- MRR: 382 BRL.
+- 585 usuários cadastrados, incluindo os 7 pagantes; cadastros não equivalem a usuários ativos.
+- Custo operacional aproximado: 300 CAD/mês, incluindo infraestrutura, APIs/IA e demais custos variáveis, dividido entre os participantes. Regra exata do rateio não informada.
+- Pagantes adquiridos por contato direto com streamers.
+- Há medição de usuários ativos e do principal evento de valor; números, retenção e cancelamentos serão fornecidos posteriormente.
 
-## Modelo público observado
+## Sociedade
 
-Teste grátis de uma hora sem cartão. Planos anunciados: Starter por US$5,99/mês (30 horas), Pro por US$9,99/mês (60 horas) e Ultra por US$19,99/mês (140 horas), com cobrança por horas extras.
+- Bruno lidera e possui 20%.
+- Tiago possui 20%.
+- Tamoyo, streamer parceiro, possui 10%.
+- Restante do cap table não detalhado.
 
-## Alegações públicas — não validadas internamente
+## Lacunas
 
-O site anuncia suporte a 16+ idiomas, 100+ streamers e métricas de uso/engajamento. Valores dinâmicos ou exibidos como zero na captura não devem ser interpretados como métricas internas confiáveis.
-
-## Lacunas materiais
-
-MAU, streamers ativos/pagantes, trial-to-paid, retenção, custo de IA por hora, margem por plano, principais canais de aquisição, churn, dependência de Twitch/Kick/OBS, owners e roadmap não foram informados.
+MAU, trial-to-paid, retenção, churn, custo de IA por hora, margem por plano, desempenho comercial, dependências de plataformas, roadmap e dados dos últimos três meses.

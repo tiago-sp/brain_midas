@@ -1,17 +1,26 @@
 # Portfólio Ax6Pro
 
-Captura inicial: 2026-09-11.
+Captura pública inicial: 2026-09-11.
+Dados internos atualizados a partir de relatos de Tiago entre 2026-09-11 e 2026-09-15; não auditados.
 
-| Negócio | Categoria pública observada | Fonte inicial | Estado interno |
-|---|---|---|---|
-| Bit2Connect | SaaS de deep links e atribuição | https://bit2connect.com/ | Não informado |
-| Pingys | Co-host de IA para streaming | https://pingys.com/ | Não informado |
-| PingysTV | Canal de streaming esportivo com personagens/IA | https://www.twitch.tv/pingystv | Não informado |
-| WLKMe | Concierge digital para hospedagens | https://wlkme.com/ | Não informado |
-| ScoreBetAI | Automação de apostas esportivas orientada por dados/IA | https://scorebetai.com/ | Não informado |
-| Vant Clinic | Jornada digital de tratamento capilar com acompanhamento médico | https://dev.vantclinic.com/ | Ambiente `dev`; estágio interno não informado |
-| Tutufi | Não informado | Não fornecida | Não informado |
+| Negócio | Categoria | Estado interno atual |
+|---|---|---|
+| Bit2Connect | SaaS de deep links e atribuição | Um parceiro em uso, sem clientes pagantes; ver ficha |
+| Pingys | Co-host de IA para streaming | Operando com 7 pagantes; ver ficha |
+| PingysTV | Canal de streaming esportivo com personagens/IA | Estado interno não informado |
+| WLKMe | Concierge digital para hospedagens | Operando com 7 pagantes; ver ficha |
+| ScoreBetAI / Axio Vector | Operação quantitativa em mercados esportivos; pivot B2B de software em avaliação | Operação existente, plano de recuperação e novo posicionamento B2B em análise; ver ficha |
+| Vant Clinic | Tratamento capilar com jornada digital | Validação de fórmulas e teste de bancada; ver ficha |
+| Tutufi | Histórias infantis personalizadas | Pré-lançamento; protótipo e backend funcional; ver ficha |
+
+## Governança e restrições
+
+- Grupo-base informado: Tiago, Bruno, Amorim, Edjo, Joanyr e Thyago. Tiago e Thyago são pessoas distintas. Há sócios externos, como Lucas, Marvin, Tamoyo, Nelson e doutor Charles.
+- Cada projeto possui um responsável principal, geralmente com participação maior. Não derivar cap tables pela regra geral: somente participações declaradas nas fichas são confirmadas.
+- Disponibilidade de Tiago: aproximadamente 2 horas por dia útil mais 8 horas no fim de semana, totalizando 18 horas por semana sob premissa de cinco dias úteis.
+- Teto pessoal de Tiago: 260 CAD por mês para a soma dos projetos. Não confundir com orçamento das empresas.
+- Objetivo: concentrar tempo no projeto com maior potencial/chance de retorno. Tiago aceita aguardar por retorno desde que exista evidência de crescimento.
 
 ## Regra de uso
 
-Esta tabela confirma apenas que Tiago incluiu os sete projetos no portfólio Ax6Pro. Prioridade, sociedade, receita, maturidade, investimento e status operacional não devem ser inferidos. Para decisões de portfólio, pedir somente os dados que mudam a recomendação.
+As categorias públicas descrevem posicionamento, não comprovam receita, performance ou capacidade. Dados declarados por Tiago não equivalem a auditoria. Consultar a ficha de cada projeto antes de recomendar.
