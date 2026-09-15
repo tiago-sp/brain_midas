@@ -68,15 +68,54 @@ O site Axio Vector se apresenta como empresa de pesquisa quantitativa e IA aplic
 - Mudar linguagem não altera automaticamente o enquadramento jurídico; oferta, execução e jurisdições exigem análise especializada.
 - O pivot ainda não foi incorporado como visão definitiva nem usado para reordenar o portfólio.
 
-### Lacunas para concluir a avaliação
+### Produto-alvo definido por Tiago — ainda não tratado como capacidade implementada
 
-- Sinais versus execução automática.
-- Custódia de credenciais, controles de risco, escolha de provedores e kill switch.
-- Arquitetura: API, software no ambiente do cliente, agente de execução ou híbrido.
-- Modelo de cobrança.
-- Primeiro ICP, país-alvo e responsável comercial.
+#### Execução e controle
+
+- A Blackbox será o motor de inteligência e decisão: processará dados e modelos e produzirá sinais/instruções.
+- Deve suportar duas modalidades: sinais e execução automática opcional.
+- Na execução automática, a Blackbox enviará instruções para um **Axio Execution Agent** conectado às contas do cliente.
+- Credenciais permanecerão sob controle do cliente, preferencialmente no ambiente dele ou em vault usado pelo agente. A infraestrutura central da Axio não deverá precisar acessar credenciais privadas.
+- Sempre que possível, integrações usarão API keys/OAuth limitadas a trading, sem saque ou transferência.
+- A Axio definirá provedores tecnicamente suportados; o cliente escolherá contas e provedores dentre eles.
+- O cliente definirá limites de risco e exposição, incluindo posição, perda diária, drawdown, simultaneidade e mercados. A Blackbox não poderá excedê-los.
+- A Axio disponibilizará estratégias; o cliente deverá habilitar explicitamente quais podem operar.
+- O cliente terá kill switch na interface e localmente no Execution Agent.
+- Falhas deverão seguir **fail closed**: nenhuma nova posição até normalização.
+
+#### Arquitetura híbrida pretendida
+
+- **Axio Vector Cloud:** modelos/Blackbox, sinais, estratégias, versionamento, telemetria, monitoramento, dashboards e trilha de auditoria.
+- **Axio Execution Agent:** componente no ambiente/VPS do cliente para credenciais, conectores, segunda validação de risco, execução, fills/posições, kill switch e proteção durante perda de comunicação.
+- Fluxo pretendido: `Market Data → Axio Vector Blackbox → Signal/Instruction → Execution Agent → Broker/Exchange`, com telemetria de retorno.
+- Private deployment/on-premise poderá ser oferecido futuramente a clientes institucionais; é roadmap.
+
+#### Modelo comercial pretendido
+
+- Receita principal inicial: licença mensal ou anual mais taxa de implantação quando necessária.
+- Licença poderá incluir Blackbox, estratégias contratadas, API, Execution Agent, dashboard, monitoramento, atualizações e infraestrutura.
+- Tiers poderão variar por contas, estratégias, mercados ou capacidade.
+- Componentes de consumo poderão ser adicionados para grande escala: contas, estratégias, processamento, sinais, infraestrutura, market data ou computação.
+- Integrações e estratégias exclusivas poderão ser cobradas como desenvolvimento customizado.
+- Participação sobre performance não será componente principal inicial; somente poderá ser avaliada posteriormente após análise comercial, contratual e regulatória.
+
+### Direção inicial de validação confirmada
+
+- Primeiro ICP: family offices e gestores de patrimônio. Geografia inicial ainda não definida.
+- Primeiro piloto: sinais/API, sem execução automática.
+- Grande parte da arquitetura já existe no sistema atual e precisa ser empacotada, segundo Tiago; inventário funcional e esforço remanescente ainda não fornecidos.
+- Responsável pelas entrevistas, prospecção, pilotos e negociação: outro sócio ainda a definir.
+
+### Lacunas remanescentes para concluir a avaliação
+
+- País-alvo, perfil detalhado do comprador econômico e responsável comercial nomeado.
+- Preços, custo de implantação/suporte, margem e unit economics.
+- Inventário do que já existe, escopo exato do MVP e esforço para empacotamento.
+- Primeiros provedores suportados e viabilidade de suas APIs/permissões.
 - Escopo, custo e entidade para verificação independente.
 - Capacidade, liquidez, slippage e degradação do edge com aumento do capital.
+- Segurança, SLA, suporte, incidentes e responsabilidades contratuais.
+- Análise jurídica/regulatória da geração de sinais e execução automatizada nos mercados-alvo.
 - Separação no site entre capacidades atuais, métricas verificadas e roadmap.
 
 ## Riscos materiais

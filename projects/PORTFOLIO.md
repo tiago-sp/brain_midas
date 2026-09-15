@@ -21,6 +21,18 @@ Dados internos atualizados a partir de relatos de Tiago entre 2026-09-11 e 2026-
 - Teto pessoal de Tiago: 260 CAD por mês para a soma dos projetos. Não confundir com orçamento das empresas.
 - Objetivo: concentrar tempo no projeto com maior potencial/chance de retorno. Tiago aceita aguardar por retorno desde que exista evidência de crescimento.
 
+## Recomendação atual — 2026-09-15
+
+- **Investir tempo:** Pingys e Vant Clinic.
+- **Recuperar passivos e validar sem escalar:** ScoreBetAI/Axio Vector.
+- **Delegar e medir:** WLKMe.
+- **Executar teste comercial curto:** Bit2Connect.
+- **Pausar desenvolvimento:** Tutufi.
+- **Integrar ao Pingys como canal mensurável ou pausar:** PingysTV.
+- Análise completa: `../analyses/portfolio-prioritization-2026-09-15.md`.
+- Plano de seis semanas: `../plans/portfolio-focus-6-weeks.md`.
+- Apresentação final: `../presentations/portfolio-comparison-final-2026-09-15.pptx`.
+
 ## Regra de uso
 
 As categorias públicas descrevem posicionamento, não comprovam receita, performance ou capacidade. Dados declarados por Tiago não equivalem a auditoria. Consultar a ficha de cada projeto antes de recomendar.
